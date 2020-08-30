@@ -35,7 +35,9 @@ p {
     font-weight: 100;
 }
 
+
 /* Grid Styles */
+
 #grid {
     background: #fff url(images/tracks.png) no-repeat;
     background-size: cover;
@@ -51,7 +53,7 @@ p {
     width: 100%;
 }
 
-.grid-item:nth-child(1){
+.grid-item:nth-child(1) {
     background: #009687f5;
 }
 
@@ -95,12 +97,19 @@ p {
 
 .grid-item h3 {
     font-size: 2em;
+    width: 100%;
+    position: absolute;
+    top: .3em;
+    text-align: center;
     color: #eee;
+    margin-block-start: 0em;
+    margin-block-end: .5em;
 }
 
 .grid-item img {
     max-width: 100%;
-    padding-bottom: 1em;
+    max-height: 100%;
+    padding: 1em 0;
 }
 
 .grid-item p {
@@ -111,7 +120,7 @@ p {
     padding: 0.8em 0.8em 1.8em;
     margin:0;
     box-sizing: border-box;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
     color: #fff;
 }
